@@ -1,0 +1,72 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#frontend-app .............................................
+# dependencies
+/frontend-app/node_modules
+/frontend-app/.pnp
+/frontend-app/.pnp.js
+/frontend-app/.yarn/install-state.gz
+
+# testing
+/frontend-app/coverage
+
+# next.js
+/frontend-app/.next/
+/frontend-app/out/
+
+#env
+/frontend-app/.env
+/frontend-app/.env.local
+
+# production
+/frontend-app/build
+
+# misc
+/frontend-app/.DS_Store
+/frontend-app/*.pem
+
+# debug
+/frontend-app/npm-debug.log*
+/frontend-app/yarn-debug.log*
+/frontend-app/yarn-error.log*
+
+# local env files
+/frontend-app/.env*.local
+
+# vercel
+/frontend-app/.vercel
+
+# typescript
+/frontend-app/*.tsbuildinfo
+/frontend-app/next-env.d.ts
+
+
+
+#extension .............................................
+# Logs
+/extension/logs
+/extension/*.log
+/extension/npm-debug.log*
+/extension/yarn-debug.log*
+/extension/yarn-error.log*
+/extension/pnpm-debug.log*
+/extension/lerna-debug.log*
+
+/extension/node_modules
+/extension/.output
+/extension/stats.html
+/extension/stats-*.json
+/extension/.wxt
+/extension/.env
+/extension/web-ext.config.ts
+
+# Editor directories and files
+/extension/.vscode/*
+/extension/!.vscode/extensions.json
+/extension/.idea
+/extension/.DS_Store
+/extension/*.suo
+/extension/*.ntvs*
+/extension/*.njsproj
+/extension/*.sln
+/extension/*.sw?
